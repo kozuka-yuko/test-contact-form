@@ -24,13 +24,13 @@ Laravel環境構築
 
 使用技術
 
- ・PHP 
+ ・PHP 8.3.6
  
- ・Nginx
+ ・Nginx 1.21.1
  
- ・Laravel
+ ・Laravel ^8.75
  
- ・Mysql
+ ・Mysql 8.0.26
 
 URL
 
