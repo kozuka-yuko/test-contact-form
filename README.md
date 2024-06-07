@@ -16,11 +16,11 @@ Laravel環境構築
   
   3. .env.example ファイルから.env を作成し、環境変数を変更
   
-  4.
+  4.php artisan key:generate
   
-  5.
+  5.php artisan migrate
   
-  6.
+  6.php artisan db:seed
 
 使用技術
 
