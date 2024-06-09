@@ -15,7 +15,7 @@
         <div class="background-text">
             <p>お問い合わせありがとうございました</p>
         </div>
-        <form action="/admin" class="home__button" method="get">
+        <form action="/" class="home__button" method="get">
             <button>HOME</button>
         </form>
     </main>

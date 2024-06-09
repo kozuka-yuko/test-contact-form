@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/',[ContactController::class,'index']);
 Route::post('/contacts/confirm',[ContactController::class,'confirm']);
 Route::post('/contacts',[ContactController::class,'store']);
+Route::delete('/contacts/{contact_id}',[ContactController::class,'destroy']);
+
+Route::get('/categories',[CategoryController::class,'index']);
