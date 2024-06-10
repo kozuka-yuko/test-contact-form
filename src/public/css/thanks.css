@@ -22,10 +22,11 @@
     text-align: center;
 }
 
-button {
+.home_button {
     padding: 10px;
     width: 30%;
     height: 50px;
+    text-decoration: none;
     border: none;
     border-radius: 3px;
     background: #82756A;

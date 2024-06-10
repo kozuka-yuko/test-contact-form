@@ -20,14 +20,18 @@
         @csrf
         <div class="form__group">
             <p>メールアドレス</p>
-            <input type="email" name="email" placeholder="例:test@example.com">
+            <input type="email" name="email" placeholder="例:test@example.com" value="{{ old('email') }}" />
             <div class="form__error">
-                <!--バリデーション機能を実装したら記述します。-->
+                @error('email')
+                {{ $message }}
+                @enderror
             </div>
             <p>パスワード</p>
             <input type="password" name="password" placeholder="例:coachtech1106">
             <div class="form__error">
-                <!--バリデーション機能を実装したら記述します。-->
+                @error('password')
+                {{ $message }}
+                @enderror
             </div>
         </div>
         <div class="form__button">

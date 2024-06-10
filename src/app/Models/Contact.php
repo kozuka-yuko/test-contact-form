@@ -30,4 +30,13 @@ class Contact extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    public function contact()
+    {
+        return $this->hasOne('App\Models\Contact');
+    }
+    public function contacts()
+    {
+        return $this->hasMany('App\Models\Contact');
+    }
 }
